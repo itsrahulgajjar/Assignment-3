@@ -2,8 +2,13 @@
 
 tasks = []
 
+<<<<<<< HEAD
 def add_task(task):
     tasks.append(task)
+=======
+def add_task(task, priority):
+    tasks.append({"task": task, "priority": priority})
+>>>>>>> feature
 
 def view_tasks():
     for i, task in enumerate(tasks, start=1):
