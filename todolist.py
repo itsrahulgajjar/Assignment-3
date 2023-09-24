@@ -6,6 +6,7 @@ def add_task(task, priority):
     tasks.append({"task": task, "priority": priority})
 #for commit 1
 #for commit 2 
+#for commit 3
 def view_tasks():
     for i, task in enumerate(tasks, start=1):
         print(f"{i}. {task}")
